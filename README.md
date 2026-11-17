@@ -1,4 +1,4 @@
-# claude-plugins
+# hemant-plugins
 
 A Claude Code marketplace with three plugins. Each one points to its upstream project.
 
@@ -10,9 +10,9 @@ A Claude Code marketplace with three plugins. Each one points to its upstream pr
 
 ```
 /plugin marketplace add hemantmane2113/claude-plugins
-/plugin install ponytail@claude-plugins
-/plugin install graphify@claude-plugins
-/plugin install omniroute@claude-plugins
+/plugin install ponytail@hemant-plugins
+/plugin install graphify@hemant-plugins
+/plugin install omniroute@hemant-plugins
 ```
 
 Upstream licenses: ponytail MIT, graphify Apache-2.0, OmniRoute see its LICENSE. Nothing is copied here.

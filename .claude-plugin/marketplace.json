@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-plugins",
+  "name": "hemant-plugins",
   "description": "Plugins for ponytail, graphify and OmniRoute. Each plugin points to its upstream project.",
   "owner": { "name": "hemantmane2113" },
   "plugins": [
