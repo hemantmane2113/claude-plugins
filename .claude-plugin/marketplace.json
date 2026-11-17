@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins",
+  "description": "Plugins for ponytail, graphify and OmniRoute. Each plugin points to its upstream project.",
+  "owner": { "name": "hemantmane2113" },
+  "plugins": [
+    {
+      "name": "ponytail",
+      "description": "Lazy senior dev mode: the simplest solution that works. Pulled from upstream DietrichGebert/ponytail.",
+      "source": { "source": "github", "repo": "DietrichGebert/ponytail" },
+      "category": "productivity"
+    },
+    {
+      "name": "graphify",
+      "description": "Turn code, docs, PDFs and images into a queryable knowledge graph with /graphify (Graphify-Labs/graphify).",
+      "source": "./plugins/graphify",
+      "category": "development"
+    },
+    {
+      "name": "omniroute",
+      "description": "Connect Claude Code to the OmniRoute AI gateway over MCP, with a setup skill (cheaper-inference/OmniRoute).",
+      "source": "./plugins/omniroute",
+      "category": "development"
+    }
+  ]
+}

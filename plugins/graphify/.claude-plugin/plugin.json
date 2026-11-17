@@ -1,0 +1,6 @@
+{
+  "name": "graphify",
+  "version": "0.1.0",
+  "description": "Knowledge-graph skill for Claude Code, backed by the upstream graphify CLI (Graphify-Labs/graphify, Apache-2.0).",
+  "homepage": "https://github.com/Graphify-Labs/graphify"
+}
