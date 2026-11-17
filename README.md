@@ -15,4 +15,24 @@ A Claude Code marketplace with three plugins. Each one points to its upstream pr
 /plugin install omniroute@hemant-plugins
 ```
 
+## Prerequisites
+
+**ponytail**: none.
+
+**graphify**: install the upstream CLI first, persistently (not with `uvx`):
+
+```bash
+uv tool install graphifyy
+graphify install
+```
+
+**omniroute**: install and set up the gateway. The plugin only registers its MCP server.
+
+```bash
+npm i -g omniroute
+omniroute setup
+```
+
+The first MCP start can take about 2 minutes while npm installs `omniroute` (it is large). Later starts are fast. Add your own provider accounts and keys in the OmniRoute dashboard.
+
 Upstream licenses: ponytail MIT, graphify Apache-2.0, OmniRoute see its LICENSE. Nothing is copied here.
